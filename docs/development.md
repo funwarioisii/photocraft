@@ -116,6 +116,8 @@ Keep one `PcraftWriter` per open document: re-saving then only compresses and wr
 
 ## MCP (agents)
 
+Local client launchers and Codex registration: [Local MCP setup](local-mcp.md).
+
 `photocraft-cli mcp` serves MCP on stdio using `crates/automation`, which is built on `rmcp`:
 
 - **Headless:** `photocraft-cli mcp --automation-read-root <dir> --automation-write-root <dir>`. It drives an in-process engine session and has no file authority when a root is omitted.
